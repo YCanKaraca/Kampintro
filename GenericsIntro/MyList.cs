@@ -9,7 +9,7 @@ namespace GenericsIntro
     internal class MyList<T>
     {
         T[] items;
-        //constructor
+        //constructor class new'lendigi anda otomatik calisir
         public MyList()
         {
             items = new T[0];

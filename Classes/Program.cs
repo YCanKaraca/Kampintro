@@ -9,9 +9,14 @@ Kurs kurs2 = new Kurs();
 kurs2.KursEgitmeni = "Ahmet";
 kurs2.IzlenmeOrani = 66;
 kurs2.KursAdi = "Java";
+
+Kurs kurs3 = new Kurs();
+kurs3.KursEgitmeni = "Mehmet";
+kurs3.IzlenmeOrani = 15;
+kurs3.KursAdi = "C++";
 //Console.WriteLine(kurs1.KursEgitmeni + " : " + kurs1.IzlenmeOrani);
 
-Kurs[] KursDizisi = new Kurs[] {kurs1, kurs2};
+Kurs[] KursDizisi = new Kurs[] {kurs1, kurs2, kurs3};
 
 foreach (var isim in KursDizisi)
 {

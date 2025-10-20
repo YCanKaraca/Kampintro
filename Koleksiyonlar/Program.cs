@@ -12,7 +12,7 @@
 //isimler[4] = "Yusuf Can";
 //Console.WriteLine(isimler[4]);
 //Console.WriteLine(isimler[0]);
-
+//arraylar pek fazla kullanilmaz
 
 
 
